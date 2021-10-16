@@ -1,0 +1,26 @@
+@mixin common-text ($size: 15px) {
+    font-family: 'Gill Sans';
+    font-size: $size;
+    font-weight: normal;
+}
+
+@mixin common-smh ($style: regular, $color: black) {
+    color: $color;
+    font-style: $style;
+    font-family: 'Gill Sans';
+    font-size: 20px;
+}
+
+@mixin site-button ($width: 122px, $height: 40px) {
+    width: $width;
+    height: $height;
+    background-color: #EE4367;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    @include common-text;
+}
+// @mixin img-overlay($gradient: null, $bgimage: null) {
+//     background-image: $gradient, $bgimage;
+// }

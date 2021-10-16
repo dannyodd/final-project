@@ -1,0 +1,23 @@
+.about-content {
+    width: 76.6%;
+    max-width: 980px;
+    margin: 85.5px auto;
+    .about-hero {
+        background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)),
+        url(../images/about.jpg);
+        height: 378.75px;
+        background-position: center;
+        background-size: cover;
+    }
+    .header-box {
+        position: relative;
+        top: -23px;
+        margin-bottom: 13.5px;
+    }
+    p {
+        @include common-text(16px);
+        font-style: italic;
+        font-weight: lighter;
+        letter-spacing: 1.5px;
+    } 
+}
